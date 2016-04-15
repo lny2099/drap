@@ -1,4 +1,6 @@
 // JavaScript Document
-function drap(){
-
+function drap(id){
+  var oDiv = document.getElementById(id)
+  oDiv.onclick = function(){
+  }
 }
